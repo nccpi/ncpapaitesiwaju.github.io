@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>DATA FORM</title>
+</head>
+<style>
+    body{
+        background-color: skyblue;
+        color: white;
+    }
+h1{
+text-align: center;
+font-size: 50px;
+top: 400px;
+text-shadow: slateblue 2px 2px 0px, white 3px 1px 0px;
+}
+.input{
+font-size: 25px;
+
+}
+.names{
+    word-spacing: 90px;
+}
+</style>
+
+<body>
+    <div>
+    <h1><img src="images/ncc logo.jpg" style="width: 120px; height: 120px;">NEW COVENANT CHURCH</br><b style="font-size: 30px;"> PAPA ITESIWAJU CENTRE</b></h1>
+    </div>
+    <form action="https://getform.io/f/003f79fc-705b-4154-8d80" method="POST">
+<p style="font-size: 30px;">Please be notify that any information submitted is highly protected and will never be share with any third party, be it Google or any other database platform.</p>
+        <p class="input"><b class="names">Surname Middlename Lastname</b> </br> <input type="text" name="surname" required  cols="100"/><input type="text" name="middlename" required  cols="100"/><input type="text" name="lastname" required  cols="100"/></p>
+        <p class="input"><b>Sex</b> </br> <input type="radio" name="gender" required value="male"/>Male </br>
+            <input type="radio" name="gender" value="female" style="font-size: 30px;"/>Female</p>
+            <p class="input"><b>Date of birth</b>  </br><input type="text" required  name="dob" placeholder="DD / MM"/></p>
+            <p class="input"><b>Home address</b>  </br><textarea rows="" cols="50px" required  name="address"></textarea></p>
+            <p class="input"><b>Phone No</b>  </br><input type="text" required  name="number"/></p>
+            <p class="input"><b>Email</b>  </br><input type="text" required  name="email" placeholder="example@gmail.com"/></p>
+            <p class="input"><b>Occupation</b>  </br><input type="text" required  name="work"/></p>
+            <p class="input"><b>Comment</b>  </br><textarea rows="10px" cols="100px" name="comment"></textarea></p>
+            <p class="input"><b>Suggestion</b>  </br><textarea rows="5px" cols="100px" name="suggestion"></textarea></p></p>
+<input name="submit" type="submit"/>
+    </form>
+</body>
+</html>
